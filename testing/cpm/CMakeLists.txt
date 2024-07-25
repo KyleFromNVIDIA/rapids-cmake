@@ -69,6 +69,8 @@ add_cmake_config_test( cpm_bs_thread_pool-simple.cmake )
 add_cmake_config_test( cpm_bs_thread_pool-export.cmake )
 add_cmake_build_test( cpm_bs_thread_pool-build-config-works.cmake )
 add_cmake_build_test( cpm_bs_thread_pool-install-config-works.cmake )
+add_cmake_build_test( cpm_bs_thread_pool-transitive-build-config-works.cmake )
+add_cmake_build_test( cpm_bs_thread_pool-transitive-install-config-works.cmake )
 
 add_cmake_config_test( cpm_cccl-simple.cmake )
 add_cmake_config_test( cpm_cccl-export.cmake )
